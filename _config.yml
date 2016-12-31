@@ -1,0 +1,47 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
+
+# 作者信息
+author: 
+  name: maweijei
+  email: maweijie@outlook.com
+  link: http://blog.mawj.vip
+  #weibo: http://weibo.com/orangeissweet
+  github: http://github.com/ma-weijie
+  music: http://site.douban.com/linanya
+  #linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+
+# 站点信息
+title: 麻伟杰的博客
+description: My personal blog
+url: http://blog.mawj.vip
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/deer3.png
+favicon: /public/img/deer3.png
+
+# google analytics 设置
+ga:
+  id: UA-89630319-1 
+  url: blog.mawj.vip
+
+# disqus 设置
+disqus:
+  shortname: painterlin
+
+# 主题设置，自动激活某个标签
+active: 科研
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Optimization
+  - LaTeX
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
